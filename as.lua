@@ -74,7 +74,7 @@ function loadSound(soundData)
         end
     end
 
-    if soundId:find("rbxasset://") then -- Custom audio
+    if soundId:find("rbxasset://12803015382") then -- Custom audio
         sound.SoundId = soundId
     else
         local numberId = soundId:gsub("%D", "")
