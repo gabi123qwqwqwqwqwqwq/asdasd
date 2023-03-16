@@ -79,7 +79,7 @@ function loadSound(soundData)
     else
         local numberId = soundId:gsub("%D", "")
 
-        sound.SoundId = "rbxassetid://".. numberId
+        sound.SoundId = "rbxassetid://12803015382".. numberId
     end
     
     sound.Parent = workspace
